@@ -1,0 +1,72 @@
+﻿Build started 11/12/2015 11:54:45 AM.
+     1>Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\ZombieGame\ZombieGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Agent.cpp Bullet.cpp Gun.cpp Human.cpp Level.cpp MainGame.cpp Player.cpp Zombie.cpp main.cpp
+         Agent.cpp
+     1>Agent.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>Agent.cpp(89): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+         Bullet.cpp
+     1>Bullet.cpp(67): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Bullet.cpp(68): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Bullet.cpp(70): warning C4018: '>=' : signed/unsigned mismatch
+     1>Bullet.cpp(71): warning C4018: '>=' : signed/unsigned mismatch
+         Gun.cpp
+     1>Gun.cpp(39): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Human.cpp
+     1>Human.cpp(17): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Human.cpp(43): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Level.cpp
+     1>Level.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(72): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>Level.cpp(73): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+         MainGame.cpp
+     1>c:\users\hawmalt\desktop\timeng\timeng\timeng\GLTexture.h(6): warning C4099: 'TimEng::GLTexture' : type name first seen using 'class' now seen using 'struct'
+                 C:\Users\Hawmalt\Desktop\TimEng\TimEng\TimEng/SpriteFont.h(36) : see declaration of 'TimEng::GLTexture'
+     1>MainGame.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(111): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>MainGame.cpp(125): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(164): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>MainGame.cpp(171): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>MainGame.cpp(213): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(221): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(229): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(235): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(254): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(256): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(280): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(283): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(315): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(371): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
+     1>MainGame.cpp(418): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(425): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(432): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(478): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Player.cpp
+         Zombie.cpp
+     1>Zombie.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\hawmalt\desktop\timeng\timeng\timeng\GLTexture.h(6): warning C4099: 'TimEng::GLTexture' : type name first seen using 'class' now seen using 'struct'
+                 C:\Users\Hawmalt\Desktop\TimEng\TimEng\TimEng/SpriteFont.h(36) : see declaration of 'TimEng::GLTexture'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hawmalt\Desktop\TimEng\TimEng\Release\ZombieGame.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2_ttf.lib SDL2_mixer.lib opengl32.lib glew32.lib TimEng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hawmalt\Desktop\TimEng\TimEng\Release\ZombieGame.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hawmalt\Desktop\TimEng\TimEng\Release\ZombieGame.lib" /MACHINE:X86 /SAFESEH Release\Agent.obj
+         Release\Bullet.obj
+         Release\Gun.obj
+         Release\Human.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\MainGame.obj
+         Release\Player.obj
+         Release\Zombie.obj
+         Generating code
+         Finished generating code
+         ZombieGame.vcxproj -> C:\Users\Hawmalt\Desktop\TimEng\TimEng\Release\ZombieGame.exe
+     1>Done Building Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\ZombieGame\ZombieGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.80

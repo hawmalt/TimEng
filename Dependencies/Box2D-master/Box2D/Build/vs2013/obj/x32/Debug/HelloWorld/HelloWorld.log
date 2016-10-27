@@ -1,0 +1,14 @@
+﻿Build started 11/16/2015 9:27:52 AM.
+     1>Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\HelloWorld.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\.. /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\HelloWorld\\" /Fd"bin\x32\Debug\HelloWorld.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HelloWorld\Helloworld.cpp
+         Helloworld.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\x32\Debug\HelloWorld.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\x32\Debug\HelloWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\x32\Debug\HelloWorld.lib" /MACHINE:X86 obj\x32\Debug\HelloWorld\Helloworld.obj
+         "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\Box2D.lib"
+         HelloWorld.vcxproj -> C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\HelloWorld.exe
+     1>Done Building Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\HelloWorld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.72

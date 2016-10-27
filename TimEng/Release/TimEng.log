@@ -1,0 +1,52 @@
+﻿Build started 1/10/2016 2:46:42 PM.
+     1>Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\TimEng\TimEng.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CoreEngine.cpp GameComponent.cpp GameObject.cpp IMainGame.cpp RenderingEngine.cpp ScreenList.cpp
+         CoreEngine.cpp
+     1>CoreEngine.cpp(30): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
+         GameComponent.cpp
+         GameObject.cpp
+         IMainGame.cpp
+         RenderingEngine.cpp
+         ScreenList.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Hawmalt\Desktop\TimEng\TimEng\Release\TimEng.lib" SDL2.lib SDL2main.lib glew32s.lib glew32.lib opengl32.lib /NOLOGO /LTCG Release\AudioEngine.obj
+         Release\Camera2D.obj
+         Release\CoreEngine.obj
+         Release\GameComponent.obj
+         Release\GameObject.obj
+         Release\IMainGame.obj
+         Release\ParticleBatch2D.obj
+         Release\ParticleEngine2D.obj
+         Release\RenderingEngine.obj
+         Release\ScreenList.obj
+         Release\TimEngErrors.obj
+         Release\GLSLProgram.obj
+         Release\ImageLoader.obj
+         Release\InputManager.obj
+         Release\IOManager.obj
+         Release\picoPNG.obj
+         Release\ResourceManager.obj
+         Release\Sprite.obj
+         Release\SpriteBatch.obj
+         Release\SpriteFont.obj
+         Release\TextureCache.obj
+         Release\TimEng.obj
+         Release\Timing.obj
+         Release\Window.obj
+     1>glew32.lib(glew32.dll) : warning LNK4006: _wglewIsSupported@4 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _wglewInit@0 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _wglewGetExtension@4 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _glewIsSupported@4 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _glewInit@0 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _glewGetString@4 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _glewGetExtension@4 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: _glewGetErrorString@4 already defined in glew32s.lib(glew.obj); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+         TimEng.vcxproj -> C:\Users\Hawmalt\Desktop\TimEng\TimEng\Release\TimEng.lib
+     1>Done Building Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\TimEng\TimEng.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.63

@@ -1,0 +1,13 @@
+﻿Build started 11/16/2015 9:27:13 AM.
+     1>Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\glew.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\glew\\" /Fd"bin\x32\Debug\glew.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\glew\glew.c
+         glew.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"bin\x32\Debug\glew.lib" /NOLOGO obj\x32\Debug\glew\glew.obj
+         glew.vcxproj -> C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\glew.lib
+     1>Done Building Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\glew.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.15

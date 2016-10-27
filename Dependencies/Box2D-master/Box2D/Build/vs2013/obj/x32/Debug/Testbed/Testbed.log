@@ -1,0 +1,21 @@
+﻿Build started 11/30/2015 3:27:01 PM.
+     1>Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\Testbed.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\.. /Zi /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Testbed\\" /Fd"bin\x32\Debug\Testbed.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Testbed\Tests\TestEntries.cpp
+         TestEntries.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\x32\Debug\Testbed.exe" /INCREMENTAL /NOLOGO glu32.lib opengl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\x32\Debug\Testbed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\x32\Debug\Testbed.lib" /MACHINE:X86 obj\x32\Debug\Testbed\DebugDraw.obj
+         obj\x32\Debug\Testbed\imgui.obj
+         obj\x32\Debug\Testbed\Main.obj
+         obj\x32\Debug\Testbed\RenderGL3.obj
+         obj\x32\Debug\Testbed\Test.obj
+         obj\x32\Debug\Testbed\TestEntries.obj
+         "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\Box2D.lib"
+         "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\glew.lib"
+         "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\glfw.lib"
+         Testbed.vcxproj -> C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\bin\x32\Debug\Testbed.exe
+     1>Done Building Project "C:\Users\Hawmalt\Desktop\TimEng\TimEng\Dependencies\Box2D-master\Box2D\Build\vs2013\Testbed.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.86
